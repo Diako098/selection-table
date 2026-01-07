@@ -1,73 +1,71 @@
-# React + TypeScript + Vite
+🏙️ React City Selection Table
+A dynamic and interactive React application built with TypeScript, Vite, and Bootstrap. This project demonstrates core React concepts like component composition, state management, and props handling based on the "React for Beginners" tutorial by Mosh Hamedani.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Interactive Table: Displays a list of cities in a structured Bootstrap table.
 
-Currently, two official plugins are available:
+Dynamic Selection: Highlighting rows upon click using React useState.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Reusable Components: Modular architecture with separate ListGroup, Button, and Alert components.
 
-## React Compiler
+TypeScript Integration: Strong typing for props and state to ensure code reliability.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Conditional Rendering: A toggleable alert system that appears when a button is clicked.
 
-## Expanding the ESLint configuration
+🛠️ Tech Stack
+Framework: React (Functional Components with Hooks)
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Build Tool: Vite
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+Language: TypeScript
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Styling: Bootstrap 5
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+📦 Installation & Setup
+Clone the repository:
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Bash
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+git clone https://github.com/Diako098/selection-table.git
+Navigate to the project directory:
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Bash
+
+cd selection-table
+Install dependencies:
+
+Bash
+
+npm install
+Run the development server:
+
+Bash
+
+npm run dev
+📂 Project Structure
+Plaintext
+
+src/
+ ├── components/
+ │    ├── Button.tsx     # Custom reusable button component
+ │    ├── ListGroup.tsx  # Interactive table component
+ ├── App.tsx             # Main application logic and layout
+ ├── main.tsx            # Entry point & Bootstrap import
+ └── index.css           # Global styles
+🎓 Acknowledgments
+This project was built while following the React for Beginners course by Programming with Mosh.
+
+How to add this to your GitHub:
+Open the file named README.md in your VS Code.
+
+Delete everything inside it and paste the text above.
+
+Save the file.
+
+Run these commands in your terminal to update GitHub:
+
+Bash
+
+git add README.md
+git commit -m "Update README with project details"
+git push origin main
