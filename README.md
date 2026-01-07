@@ -37,6 +37,7 @@ src/
  ├── App.tsx           # Root component managing global state
  ├── main.tsx          # Application entry point
  └── index.css         # Global CSS styles
+```
  
  ---
  
