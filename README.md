@@ -1,7 +1,7 @@
-🏙️ Selection Table Project
+#🏙️ Selection Table Project
 A simple and interactive React application that displays a list of cities in a clean table format. This project focuses on learning React fundamentals such as component-based architecture, state management, and props handling.
 
-✨ Features
+##✨ Features
 Interactive Table: Displays items in a structured layout using Bootstrap 5 tables.
 
 Item Selection: Highlight specific rows upon user interaction using the useState hook.
@@ -12,7 +12,7 @@ Conditional Rendering: An alert system that appears or disappears based on appli
 
 Strong Typing: Fully implemented with TypeScript for robust development and clear prop definitions.
 
-🛠️ Technologies
+###🛠️ Technologies
 React (Functional Components & Hooks)
 
 TypeScript
@@ -21,7 +21,7 @@ Bootstrap 5 (For responsive styling)
 
 Vite (Next Generation Frontend Tooling)
 
-📂 Project Structure
+####📂 Project Structure
 Plaintext
 
 src/
@@ -31,7 +31,7 @@ src/
  ├── App.tsx           # Root component managing global state
  ├── main.tsx          # Application entry point
  └── index.css         # Global CSS styles
-▶️ Running the Project
+#####▶️ Running the Project
 Clone the repository:
 
 Bash
