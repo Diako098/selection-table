@@ -1,33 +1,43 @@
-🏙️ React City Selection Table
-A dynamic and interactive React application built with TypeScript, Vite, and Bootstrap. This project demonstrates core React concepts like component composition, state management, and props handling based on the "React for Beginners" tutorial by Mosh Hamedani.
+🏙️ Selection Table Project
+A simple and interactive React application that displays a list of cities in a clean table format. This project focuses on learning React fundamentals such as component-based architecture, state management, and props handling.
 
-🚀 Features
-Interactive Table: Displays a list of cities in a structured Bootstrap table.
+✨ Features
+Interactive Table: Displays items in a structured layout using Bootstrap 5 tables.
 
-Dynamic Selection: Highlighting rows upon click using React useState.
+Item Selection: Highlight specific rows upon user interaction using the useState hook.
 
-Reusable Components: Modular architecture with separate ListGroup, Button, and Alert components.
+Reusable Components: Built with modularity in mind, including separate ListGroup and Button components.
 
-TypeScript Integration: Strong typing for props and state to ensure code reliability.
+Conditional Rendering: An alert system that appears or disappears based on application state.
 
-Conditional Rendering: A toggleable alert system that appears when a button is clicked.
+Strong Typing: Fully implemented with TypeScript for robust development and clear prop definitions.
 
-🛠️ Tech Stack
-Framework: React (Functional Components with Hooks)
+🛠️ Technologies
+React (Functional Components & Hooks)
 
-Build Tool: Vite
+TypeScript
 
-Language: TypeScript
+Bootstrap 5 (For responsive styling)
 
-Styling: Bootstrap 5
+Vite (Next Generation Frontend Tooling)
 
-📦 Installation & Setup
+📂 Project Structure
+Plaintext
+
+src/
+ ├── components/       # Reusable UI components
+ │    ├── Button.tsx    # Custom button with dynamic styles
+ │    ├── ListGroup.tsx # Table-based list display
+ ├── App.tsx           # Root component managing global state
+ ├── main.tsx          # Application entry point
+ └── index.css         # Global CSS styles
+▶️ Running the Project
 Clone the repository:
 
 Bash
 
 git clone https://github.com/Diako098/selection-table.git
-Navigate to the project directory:
+Navigate to the project folder:
 
 Bash
 
@@ -37,35 +47,8 @@ Install dependencies:
 Bash
 
 npm install
-Run the development server:
+Start the development server:
 
 Bash
 
 npm run dev
-📂 Project Structure
-Plaintext
-
-src/
- ├── components/
- │    ├── Button.tsx     # Custom reusable button component
- │    ├── ListGroup.tsx  # Interactive table component
- ├── App.tsx             # Main application logic and layout
- ├── main.tsx            # Entry point & Bootstrap import
- └── index.css           # Global styles
-🎓 Acknowledgments
-This project was built while following the React for Beginners course by Programming with Mosh.
-
-How to add this to your GitHub:
-Open the file named README.md in your VS Code.
-
-Delete everything inside it and paste the text above.
-
-Save the file.
-
-Run these commands in your terminal to update GitHub:
-
-Bash
-
-git add README.md
-git commit -m "Update README with project details"
-git push origin main
