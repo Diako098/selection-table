@@ -28,8 +28,8 @@ Vite (Next Generation Frontend Tooling)
 ---
 
 ## 📂 Project Structure
-Plaintext
 
+```text
 src/
  ├── components/       # Reusable UI components
  │    ├── Button.tsx    # Custom button with dynamic styles
